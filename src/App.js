@@ -59,9 +59,6 @@ function App() {
         },
       ]);
       setSelectedCount((prew) => (prew += 1));
-      // if (selectedCount > 0) {
-      //   imageBadges.style.opacity = '1';
-      // }
     }
   };
 
