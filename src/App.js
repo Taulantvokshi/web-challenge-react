@@ -5,12 +5,7 @@ import Credit from './components/Credit';
 import FullScreen from './components/Fullscreen';
 import Modal from './components/Modal.js';
 import './App.css';
-
-const MainContent = lazy(() => {
-  return new Promise((resolve) => {
-    setTimeout(() => resolve(import('./components/gallery/index')), 400);
-  });
-});
+const MainContent = lazy(() => import('./components/gallery/index'));
 
 function App() {
   const [selectedImages, setSelectedImages] = useState([]);
