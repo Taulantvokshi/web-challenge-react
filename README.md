@@ -3,10 +3,10 @@
 
 This project was fun to build :) 
 
-The project is also responsive! so it can be used with different screens sizes.
-I hosted this project on AWS-S3 link below:
+The project is also responsive! so it can be used with different screens sizes and is
+deployed on AWS-S3. Link below:
 
-Open [http://web-challenge-react.taulantvokshi.com/](http://web-challenge-react.taulantvokshi.com/) to view it in the browser.
+Open [web-challenge-react.taulantvokshi.com/](http://web-challenge-react.taulantvokshi.com/) to view it in the browser.
 
 
 
