@@ -23,7 +23,7 @@
 .imageTag {
   width: 340px;
   min-height: 200px;
-  transition: all 0.4s;
+  transition: all 1s;
   overflow: hidden;
   /* opacity: 0; */
 }
