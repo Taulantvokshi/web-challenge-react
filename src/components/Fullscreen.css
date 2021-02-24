@@ -1,0 +1,80 @@
+.fullscreen {
+  animation: visibile;
+  animation-duration: 0.4s;
+
+  position: relative;
+}
+
+.fullscreen-image {
+  max-height: 98vh;
+  object-fit: cover;
+}
+@media only screen and (max-width: 500px) {
+  .fullscreen-image {
+    max-height: max-content;
+    width: 100vw !important;
+    object-fit: cover;
+  }
+}
+
+.fullscreen-download,
+.fullscreen-close {
+  cursor: pointer;
+  position: absolute;
+
+  background-color: whitesmoke;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform 0.5;
+}
+.fullscreen-download {
+  left: 1rem;
+  bottom: 1rem;
+  height: 4rem;
+  width: 12rem;
+  opacity: 0.5;
+  border-radius: 3px;
+}
+
+.fullscreen-close {
+  right: 1rem;
+  top: 1rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  opacity: 0.5;
+}
+
+.fullscreen-download:hover,
+.fullscreen-close:hover {
+  transform: scale(1.02);
+}
+.fullscreen-download-image,
+.fullscreen-close-image {
+  width: 2rem;
+}
+
+@keyframes visibile {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
